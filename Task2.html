@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <script>
+    var Userid=prompt("Enter user id");
+    console.log(Userid);
+    var User_Name=prompt("Enter User Name");
+    console.log(User_Name);
+
+        var Fathers_Name=prompt("Enter Fathers Name");
+        console.log(Fathers_Name);
+
+        var Class_Of_Students=prompt("Enter Class of Students");
+        console.log(Class_Of_Students);
+
+        var University_id=prompt("Enter University id");
+        console.log(University_id);
+
+var Books_name=prompt("Enter book name");
+var Department=prompt("Enter Department");
+
+  var P=["ThermoDynamics","Momentum","Area-Calculation"]
+  var C=["Atomic Structure","Chemical-Science","Plastics"]
+var B=["Plants","PhotoSynthesis","Importance-of-Botny"]
+var Z=["Zoology-intro","Zoology-Importance","Animal-Rights"]
+
+var i;
+
+if(Department=="Physics"){
+for(i=0;i<=2;i++)
+{
+if(Books_name==P[i])
+
+{
+break;
+}
+var a=P[i];
+console.log(a);
+
+}
+
+
+}
+
+if(Department=="Chemistry"){
+    for(i=0;i<=2;i++)
+{
+if(C[i]==Books_name)
+
+{
+console.log(C[i]);
+break;
+}
+
+}
+
+
+    
+}
+
+if(Department=="Botany"){
+
+    for(i=0;i<=2;i++)
+{
+if(B[i]==Books_name)
+
+{
+console.log(B[i]);
+break;
+}
+
+}
+
+    
+}
+
+if(Department=="Zoology"){
+    for(i=0;i<=2;i++)
+{
+if(Z[i]==Books_name)
+
+{
+console.log(Z[i]);
+break;
+}
+
+}
+
+
+    
+}
+
+    
+    
+    </script>
+</body>
+</html>
